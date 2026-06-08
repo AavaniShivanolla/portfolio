@@ -126,25 +126,12 @@ h2{
     background:linear-gradient(135deg,#ff9900,#ffb84d);
 }
 
-.docker{
-    background:linear-gradient(135deg,#0db7ed,#0077b6);
-}
 
-.kubernetes{
-    background:linear-gradient(135deg,#326ce5,#1e40af);
-}
 
-.linux{
-    background:linear-gradient(135deg,#2d3748,#000000);
-}
-
-.cicd{
+.c{
     background:linear-gradient(135deg,#8b5cf6,#4f46e5);
 }
 
-.github{
-    background:linear-gradient(135deg,#24292e,#57606a);
-}
 
 .java{
     background:linear-gradient(135deg,#f89820,#ea580c);
