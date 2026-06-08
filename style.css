@@ -72,13 +72,14 @@ h2{
 /* Skills */
 
 #skills{
-    background:
-    linear-gradient(rgba(255,255,255,.90),
-    rgba(255,255,255,.90)),
-    url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1800');
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
+    background: linear-gradient(
+        135deg,
+        rgba(0, 119, 255, 0.25),
+        rgba(0, 255, 255, 0.15)
+    );
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 80px 20px;
 }
 
 .cards{
@@ -166,14 +167,15 @@ h2{
     background-attachment:fixed;
 }
 
-.project{
-    background:rgba(255,255,255,.88);
-    backdrop-filter:blur(10px);
-    padding:25px;
-    margin:20px 0;
-    border-radius:15px;
-    box-shadow:0 5px 20px rgba(0,0,0,.15);
-    transition:.3s;
+#projects{
+    background: linear-gradient(
+        135deg,
+        rgba(128, 0, 255, 0.25),
+        rgba(255, 0, 128, 0.15)
+    );
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 80px 20px;
 }
 
 .project:hover{
