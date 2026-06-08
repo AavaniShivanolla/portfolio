@@ -145,11 +145,13 @@ h2{
 }
 
 .html{
-    background:linear-gradient(135deg,#e34f26,#ff7b54);
+    background:linear-gradient(135deg,#e34f26,#ff7b54) !important;
+    color:white;
 }
 
 .css{
-    background:linear-gradient(135deg,#1572b6,#38bdf8);
+    background:linear-gradient(135deg,#1572b6,#38bdf8) !important;
+    color:white;
 }
 
 /* Projects */
