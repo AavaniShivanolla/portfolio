@@ -89,19 +89,82 @@ h2{
 }
 
 .card{
-    background:rgba(255,255,255,.8);
-    backdrop-filter:blur(10px);
+    position:relative;
+    overflow:hidden;
+    color:white;
     padding:18px 30px;
-    border-radius:12px;
-    font-weight:600;
-    box-shadow:0 4px 15px rgba(0,0,0,.15);
-    transition:.3s;
+    border-radius:15px;
+    font-weight:bold;
+    font-size:17px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,.2);
+    transition:all .3s ease;
+    cursor:pointer;
 }
 
 .card:hover{
-    background:#2563eb;
-    color:white;
-    transform:translateY(-8px);
+    transform:translateY(-10px) scale(1.08);
+    box-shadow:0 15px 35px rgba(0,0,0,.3);
+}
+
+.card::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:-100%;
+    width:50%;
+    height:100%;
+    background:rgba(255,255,255,.35);
+    transform:skewX(-25deg);
+    transition:.8s;
+}
+
+.card:hover::before{
+    left:150%;
+}
+.aws{
+    background:linear-gradient(135deg,#ff9900,#ffb84d);
+}
+
+.docker{
+    background:linear-gradient(135deg,#0db7ed,#0077b6);
+}
+
+.kubernetes{
+    background:linear-gradient(135deg,#326ce5,#1e40af);
+}
+
+.linux{
+    background:linear-gradient(135deg,#2d3748,#000000);
+}
+
+.cicd{
+    background:linear-gradient(135deg,#8b5cf6,#4f46e5);
+}
+
+.github{
+    background:linear-gradient(135deg,#24292e,#57606a);
+}
+
+.java{
+    background:linear-gradient(135deg,#f89820,#ea580c);
+}
+
+.javascript{
+    background:linear-gradient(135deg,#f7df1e,#f59e0b);
+    color:black;
+}
+
+.python{
+    background:linear-gradient(135deg,#3776ab,#ffd43b);
+}
+
+.html{
+    background:linear-gradient(135deg,#e34f26,#ff7b54);
+}
+
+.css{
+    background:linear-gradient(135deg,#1572b6,#38bdf8);
 }
 
 /* Projects */
